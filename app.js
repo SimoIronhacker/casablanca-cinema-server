@@ -16,20 +16,6 @@ const articleRouter = require('./routes/article.js');
 const categoryRouter = require('./routes/category.js');
 const commentRouter = require('./routes/comments.js');
 
-// 404 Middleware
-
-app.use("/api/*", (req, res, next) => {  
-  const error = new Error("Ressource not found.");
-  error.status = 404;
-  next(error);
-});
-
-if (process.env.NODE_ENV === "production") {
-  app.use("*", (req, res, next) => {
-    // If no routes match, send them the React HTML.
-    res.sendFile(path.join(__dirname, "public/build/index.html"));
-  });
-}
 
 
 
@@ -58,6 +44,22 @@ app.use('/', usersRouter);
 app.use('/',articleRouter);
 app.use('/',categoryRouter);
 app.use('/',commentRouter);
+
+// 404 Middleware
+
+app.use("/api/*", (req, res, next) => {  
+  const error = new Error("Ressource not found.");
+  error.status = 404;
+  next(error);
+});
+
+if (process.env.NODE_ENV === "production") {
+  app.use("*", (req, res, next) => {
+    // If no routes match, send them the React HTML.
+    res.sendFile(path.join(__dirname, "public/build/index.html"));
+  });
+}
+
 
 
 module.exports = app;
