@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fce03ac0.chunk.css",
+    "main.js": "/static/js/main.99573ad9.chunk.js",
+    "main.js.map": "/static/js/main.99573ad9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2e7bdbe2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2e7bdbe2.js.map",
+    "static/css/2.a75f5a2c.chunk.css": "/static/css/2.a75f5a2c.chunk.css",
+    "static/js/2.5d6c8b28.chunk.js": "/static/js/2.5d6c8b28.chunk.js",
+    "static/js/2.5d6c8b28.chunk.js.map": "/static/js/2.5d6c8b28.chunk.js.map",
+    "static/js/3.3597499d.chunk.js": "/static/js/3.3597499d.chunk.js",
+    "static/js/3.3597499d.chunk.js.map": "/static/js/3.3597499d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.a75f5a2c.chunk.css.map": "/static/css/2.a75f5a2c.chunk.css.map",
+    "static/css/main.fce03ac0.chunk.css.map": "/static/css/main.fce03ac0.chunk.css.map",
+    "static/js/2.5d6c8b28.chunk.js.LICENSE.txt": "/static/js/2.5d6c8b28.chunk.js.LICENSE.txt",
+    "static/media/Casa.15956730.png": "/static/media/Casa.15956730.png",
+    "static/media/Casablanca.16d7cd61.jpeg": "/static/media/Casablanca.16d7cd61.jpeg",
+    "static/media/OnceUponATimeInAmerica.39ccafe3.jpeg": "/static/media/OnceUponATimeInAmerica.39ccafe3.jpeg",
+    "static/media/ProfessorAndTheMadman.8229d181.jpeg": "/static/media/ProfessorAndTheMadman.8229d181.jpeg",
+    "static/media/fightClub.2068f635.jpeg": "/static/media/fightClub.2068f635.jpeg",
+    "static/media/unProphet.6a385869.jpeg": "/static/media/unProphet.6a385869.jpeg",
+    "static/media/usualSuspect.8a771b64.jpeg": "/static/media/usualSuspect.8a771b64.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e7bdbe2.js",
+    "static/css/2.a75f5a2c.chunk.css",
+    "static/js/2.5d6c8b28.chunk.js",
+    "static/css/main.fce03ac0.chunk.css",
+    "static/js/main.99573ad9.chunk.js"
+  ]
+}
