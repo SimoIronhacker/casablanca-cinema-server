@@ -1,6 +1,6 @@
 const express = require("express");
 const router = new express.Router();
-const userModel = require("./../model/User");
+const userModel = require("../models/User");
 const passport = require("passport");
 const bcrypt = require("bcrypt");
 const uploader = require("./../config/cloudinary");
@@ -72,7 +72,7 @@ router.post("/signin", (req, res, next) => {
       // let's choose the exposed user below
       const { _id, username, email, avatar, role } = user;
       // and only expose non-sensitive inofrmations to the client's state
-      next(
+      
         res.status(200).json({
           currentUser: {
             _id,
@@ -83,7 +83,7 @@ router.post("/signin", (req, res, next) => {
             // favorites
           }
         })
-      );
+      
     });
   })(req, res, next); // IIFE (module) pattern here (see passport documentation)
 });
