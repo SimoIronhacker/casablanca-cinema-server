@@ -10,7 +10,7 @@ const cors = require("cors");
 const logger = require("morgan");
 const passport = require("passport");
 
-const indexRouter = require("./routes/index");
+// const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
 const articleRouter = require("./routes/article.js");
 const categoryRouter = require("./routes/category.js");
@@ -37,7 +37,7 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "public/build")));
 
 // app.use('/', indexRouter);
 app.use("/", usersRouter);
